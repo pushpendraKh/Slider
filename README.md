@@ -2,6 +2,6 @@
 A slider which has one indicator on top of Thumb. 
 A slider with discrete steps below it.
 
-![AMPFloatingTextField](https://github.com/ansu/AMPFloatingTextField/blob/master/screenshot/titlewithbottomerrorlable.png)
+![Slider](https://github.com/pushpendraKh/Slider/blob/master/SliderDemo/Screen%20shots/Screenshot.png)
 
 Version: 1.0
