@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -27,19 +27,26 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="7p2-LZ-LFb" customClass="DiscreteSlider" customModule="SliderDemo" customModuleProvider="target">
+                                <rect key="frame" x="18" y="617" width="339" height="31"/>
+                            </slider>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="o2i-DV-CQv" secondAttribute="trailing" constant="20" id="2iY-IE-eib"/>
                             <constraint firstItem="KYS-tl-OAb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="PQ0-l0-NHC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7p2-LZ-LFb" secondAttribute="bottom" constant="20" id="W7B-jU-5Ll"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KYS-tl-OAb" secondAttribute="trailing" constant="20" id="Wgw-Lb-JdJ"/>
+                            <constraint firstItem="7p2-LZ-LFb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="YYH-NV-Ndm"/>
                             <constraint firstItem="o2i-DV-CQv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="bf5-K6-9bg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7p2-LZ-LFb" secondAttribute="trailing" constant="20" id="c6x-vf-lNZ"/>
                             <constraint firstItem="o2i-DV-CQv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="dWi-2h-8OQ"/>
                             <constraint firstItem="KYS-tl-OAb" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="fnP-nV-Iih"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="customSlider" destination="7p2-LZ-LFb" id="bEX-aA-j84"/>
                         <outlet property="outputLabel" destination="KYS-tl-OAb" id="f9S-Vv-KHA"/>
                         <outlet property="slider" destination="o2i-DV-CQv" id="63o-bg-yzc"/>
                     </connections>

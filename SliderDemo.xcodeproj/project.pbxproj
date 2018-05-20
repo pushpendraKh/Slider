@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C049530D20B138BD00B9E812 /* DiscreteSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C049530C20B138BD00B9E812 /* DiscreteSlider.swift */; };
 		C0DB1D9220A2399B006F9292 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DB1D9120A2399B006F9292 /* AppDelegate.swift */; };
 		C0DB1D9420A2399B006F9292 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DB1D9320A2399B006F9292 /* ViewController.swift */; };
 		C0DB1D9720A2399B006F9292 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0DB1D9520A2399B006F9292 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C049530C20B138BD00B9E812 /* DiscreteSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscreteSlider.swift; sourceTree = "<group>"; };
 		C0DB1D8E20A2399B006F9292 /* SliderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SliderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0DB1D9120A2399B006F9292 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0DB1D9320A2399B006F9292 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				C0DB1D9A20A2399B006F9292 /* LaunchScreen.storyboard */,
 				C0DB1D9D20A2399B006F9292 /* Info.plist */,
 				C0DB1DA320A239CA006F9292 /* SliderModel.swift */,
+				C049530C20B138BD00B9E812 /* DiscreteSlider.swift */,
 			);
 			path = SliderDemo;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0DB1D9420A2399B006F9292 /* ViewController.swift in Sources */,
+				C049530D20B138BD00B9E812 /* DiscreteSlider.swift in Sources */,
 				C0DB1D9220A2399B006F9292 /* AppDelegate.swift in Sources */,
 				C0DB1DA420A239CA006F9292 /* SliderModel.swift in Sources */,
 			);
